@@ -1,6 +1,7 @@
 # post-install-windows
 Automate and simplify post-installation tasks on Windows using winget and chocolatey.
 
+![visual](/DALL·E%202024-12-17%2012.05.53%20-%20A%20clean%20and%20modern%20workflow%20diagram%20for%20automating%20post-installation%20tasks%20on%20Windows.%20The%20design%20should%20feature%20a%20professional%20layout%20with%20soft%20blue%20.png)
 
 Setting up a freshly installed Windows 10 or 11 computer can be tedious and time-consuming, especially when you have to manually install each application you need. This tutorial will guide you through automating most of the package installation process, saving you time and ensuring you have a reusable setup for future reinstalls.
 
