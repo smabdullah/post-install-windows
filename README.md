@@ -99,7 +99,7 @@ choco upgrade all --yes
 ```
 
 To update specific packages:
-```bash
+```bash 
 choco upgrade [package-name]
 ```
 
