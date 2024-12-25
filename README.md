@@ -33,7 +33,7 @@ winget install Chocolatey.Chocolatey
 After the installation completes, close the terminal.
 
 ### Step 3: Create a Configuration File
-1. Create a configuration file (e.g., packages.config) to list all the packages you want to install. There is an example configuration file included in this repository.
+1. Create a configuration file (e.g., packages.config) to list all the packages you want to install. There is an example configuration file included in this repository. Use it as a reference.
 2. Visit the [Chocolatey package repository](https://community.chocolatey.org/packages) to find the package names for your desired applications (e.g., googlechrome for Chrome)
 3. Add these package names to your configuration file.
 
@@ -70,6 +70,7 @@ The example `packages.config` includes:
 - Everything: Fast file search
 - 7zip: File compression
 - HWiNFO: System information
+- LocalSend: File sharing
 
 ### AI & Productivity
 - Ollama: Local AI models
@@ -79,9 +80,8 @@ The example `packages.config` includes:
 
 ### Common Issues
 1. **Package Installation Failures**
-   - Try running the command again
    - Check your internet connection
-   - Run `choco install [package-name] -v` for verbose output
+   - Try installing the package manually by running `choco install [package-name]`
 
 2. **Permission Issues**
    - Ensure you are running as administrator
